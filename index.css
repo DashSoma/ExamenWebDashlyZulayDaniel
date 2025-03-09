@@ -5,36 +5,6 @@ body {
     padding: 0;
 }
 
-.navbar {
-    background-color: #3880ceac;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: 5px 0;
-    padding: 5px 0;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar li {
-    padding: 14px 20px;
-}
-
-.navbar a {
-    color: rgb(69, 84, 169);
-    text-decoration: none;
-    display: block;
-    font-size: 18px;
-}
-
-.navbar a:hover {
-    background-color: #575757;
-}
 
 .content {
     margin-top: 70px; 
@@ -60,4 +30,69 @@ body {
     transform: translate(-50%, -50%);
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.form-label {
+    font-weight: 600; 
+}
+   
+
+.form-control {
+    border-radius: 5px;
+    margin-bottom: 1rem; 
+}
+
+footer {
+    background-color: #0057b7; 
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer .btn {
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+footer .btn-primary {
+    background-color: #d71a28; 
+    border: none;
+}
+
+footer .btn-primary:hover {
+    background-color: #a11420;
+}
+
+footer .btn-info {
+    background-color: #0057b7; 
+    border: none;
+}
+
+footer .btn-info:hover {
+    background-color: #003f87;
+}
+
+footer .btn-danger {
+    background-color: #ffcc00; 
+    border: none;
+    color: #333;
+}
+
+footer .btn-danger:hover {
+    background-color: #e6b800;
 }

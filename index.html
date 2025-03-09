@@ -9,8 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -19,12 +21,11 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
             <span class="navbar-toggler-icon"></span>
         </button>
-
+    
         <a class="navbar-brand" href="index.html">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz33zLnInsjk52Q7BE_6uO6gxoQmZHTH1A_Q&s"
-                width="30" height="30" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz33zLnInsjk52Q7BE_6uO6gxoQmZHTH1A_Q&s" width="30" height="30" alt="">
         </a>
-
+    
         <div class="collapse navbar-collapse" id="opciones">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -42,17 +43,32 @@
                         <i class="bi bi-controller"></i>
                     </a>
                 </li>
-                <!-- Botón para abrir el modal de inicio de sesión -->
-                <li class="nav-item ms-auto">
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#loginModal">
-                        Iniciar sesión
-                    </button>
+    
+    
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Acción
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://youtu.be/92WXff7v_ZI?si=BvLbx8cEoIFdhTRv">1 Temporada </a></li>
+                        <li><a class="dropdown-item" href="https://youtu.be/260zak8E4pI?si=2AOVY5Eg2Mjqt_eM">2 Temporada</a></li>
+                        <li><a class="dropdown-item" href="https://youtu.be/8NEzTwa7heY?si=CKs8_TY4K4B3VwXp">3 Temporada</a></li>
+                        <li><a class="dropdown-item" href="https://youtu.be/0f3cQs2VDXY?si=-iIoV7mJlQmp3TmL">4 Temporada</a></li>
+                        <li><a class="dropdown-item" href="https://youtu.be/FhDYduvXheY?si=WwC5vBblPm1qJWe3">5 Temporada</a></li>
+                        <li><a class="dropdown-item" href="https://youtu.be/PHrOfFdXwK8?si=T7xFRjRzmuJuYiVP">6 Temporada</a></li>
+                        <li><a class="dropdown-item" href="https://youtu.be/5LFbn8u64ZI?si=JfjtyPSvX223-Ppy">7 Temporada</a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li class="nav-item ms-auto">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            Iniciar sesión
+                        </button>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
     </nav>
-
-    <!-- Modal de inicio de sesión -->
     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -85,8 +101,7 @@
                         <div class="mb-3 row">
                             <div class="offset-sm-3 col-sm-9">
                                 <button type="submit" class="btn btn-primary btn-sm">Confirmar</button>
-                                <button type="button" class="btn btn-secondary btn-sm"
-                                    data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancelar</button>
                             </div>
                         </div>
                     </form>
@@ -94,11 +109,7 @@
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <section class="banner">
         <h1>¡Bienvenidos!</h1>
     </section>
