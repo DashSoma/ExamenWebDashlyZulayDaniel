@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff; 
+    color: #003366; 
+}
+
+h1 {
+    font-weight: bold;
+    color: #005bbb; 
+    text-shadow: 2px 2px 6px rgba(0, 91, 187, 0.3);
+    border-bottom: 4px solid #db0707;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+img {
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.3); 
+    max-width: 80%;
+    border-radius: 15px;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    color: #003f87;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #90caf9;
+    color: #000;
+    border-radius: 4px;
+}
+
+.btn-secondary {
+    background-color: #0056b3;
+    border: none;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #90caf9;
+    color: #000;
+}
+
+
+.accordion-button {
+    background-color: #ffcc00; 
+    color: #003366;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #005bbb;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+    border-left: 5px solid #d80000;
+    padding: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d80000; 
+    color: white;
+}
+
+.accordion-button:hover {
+    background-color: #003f87;
+}
+
+
+footer {
+    background-color: #0057b7;
+    color: #0057b7;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer .btn {
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+footer .btn-primary {
+    background-color: #d71a28;
+    border: none;
+}
+
+footer .btn-primary:hover {
+    background-color: #a11420;
+}
+
+footer .btn-info {
+    background-color: #0057b7;
+    border: none;
+}
+
+footer .btn-info:hover {
+    background-color: #003f87;
+}
+
+footer .btn-danger {
+    background-color: #ffcc00;
+    border: none;
+    color: #333;
+}
+
+footer .btn-danger:hover {
+    background-color: #e6b800;
+}
