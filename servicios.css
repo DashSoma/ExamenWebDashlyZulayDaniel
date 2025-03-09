@@ -95,15 +95,6 @@ body {
     padding: 10px;
 }
 
-.card-img-top {
-    width: 100%; /* Asegura que la imagen ocupe todo el ancho */
-    min-height: 250px; /* Evita que se haga más pequeña */
-    object-fit: cover; /* Mantiene la imagen sin deformarla */
-}
-.card {
-    min-height: 400px; /* Evita que las tarjetas se achiquen demasiado */
-}
-
 footer {
     background-color: #003366;
     color: #0057b7;
