@@ -1,10 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 body {
-    font-family: 'Arial', Times, serif, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff; 
+    color: #003366; 
 }
 
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #005bbb; 
+    text-shadow: 2px 2px 6px rgba(0, 91, 187, 0.3);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.descripcion-pagina {
+    font-size: 1.2rem;
+    color: #003366;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 80%;
+    margin: auto;
+    background-color: #ffcc00;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+img {
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.3); 
+    max-width: 80%;
+    border-radius: 15px;
+}
+
+.carousel {
+    max-width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    color: #003f87;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #90caf9;
+    color: #000;
+    border-radius: 4px;
+}
+
+.btn-secondary {
+    background-color: #0056b3;
+    border: none;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #90caf9;
+    color: #000;
+}
 
 .content {
     margin-top: 70px; 
@@ -15,8 +76,8 @@ body {
 .banner {
     position: relative;
     width: 100%;
-    height: 400px;
-    background-image: url('https://www.sdpnoticias.com/resizer/v2/WZBHC32BWBACFFJVQ7LKE2WI64.jpg?smart=true&auth=8a5f70e61b669eeed2352fad9c0b5e31756587efca0793b6ea33beb14155eac0&width=1200&height=675'); 
+    height: 700px;
+    background-image: url('img/imagen12.webp'); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -29,8 +90,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
 }
+
 
 .form-label {
     font-weight: 600; 
@@ -44,7 +108,7 @@ body {
 
 footer {
     background-color: #0057b7; 
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px 0;
 }
 
@@ -90,7 +154,7 @@ footer .btn-info:hover {
 footer .btn-danger {
     background-color: #ffcc00; 
     border: none;
-    color: #333;
+    color: #3a31b9;
 }
 
 footer .btn-danger:hover {
