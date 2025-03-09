@@ -1,178 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="servicios.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="servicios.css">
 </head>
+
 <body>
-    <div class="container mt-5">
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Datos de los Paw Patrol
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <table class="table table-striped">
-                        <thead>
-                          <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Raza</th>
-                            <th scope="col">Rol</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Chase</td>
-                            <td>Pastor Alemán</td>
-                            <td>Policía</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Marshall</td>
-                            <td>Dálmata</td>
-                            <td>Bombero y paramédico</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td>Zuma</td>
-                            <td>Labrador Retriever</td>
-                            <td>Rescate acuático</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">3</th>
-                            <td>Skye</td>
-                            <td>Cocker Spaniel</td>
-                            <td>Piloto</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Rubble</td>
-                            <td>Bulldog Inglés</td>
-                            <td>Contructor</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Rocky</td>
-                            <td>Mestizo</td>
-                            <td>Reciclaje y mecánico</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Everest</td>
-                            <td>Husky Siberiano</td>
-                            <td>Rescate en la nieve</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Servicios que Paw Patrol brindan en una ciudad
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Ciudad segura.</strong> Los Paw Patrol brindan servicios esenciales en la ciudad, asegurando seguridad y bienestar. Chase actúa como policía, Marshall como bombero y paramédico, y Rubble en construcción y reparaciones. Skye y Tracker cubren rescates aéreos y en zonas remotas, mientras que Rocky fomenta el reciclaje y la conservación ambiental. Zuma lidera los rescates acuáticos y Everest los de zonas nevadas. Con trabajo en equipo, mantienen la ciudad segura, funcional y protegida para todos.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Servicios de Ryder
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>El líder de Paw Patrol, Ryder.</strong> Brinda el servicio de coordinación y gestión de emergencias en la ciudad. Él es quien recibe los llamados de auxilio, analiza la situación y asigna a los cachorros adecuados para resolver cada problema. Además, opera tecnología avanzada para comunicarse con su equipo, planificar rescates y garantizar que todas las misiones se completen de manera eficiente y segura. Sin él, los Paw Patrol no podrían funcionar con la misma eficacia. 
-                </div>
-              </div>
-            </div>
-          </div>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/imagen2.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h2>Rubble</h2>
-              <p class="card-text">Constructor fuerte, amigable, juguetón, divertido, valiente, trabajador, energético, confiable, bromista, protector.</p>
-            </div>
-          </div>
+    <a class="navbar-brand" href="index.html">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz33zLnInsjk52Q7BE_6uO6gxoQmZHTH1A_Q&s" width="30"
+        height="30" alt="">
+    </a>
 
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/imagen3.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h2>Zuma</h2>
-              <p class="card-text">Rescatista acuático, aventurero, relajado, valiente, tranquilo, juguetón, confiable, ágil, amigable, optimista.</p>
-            </div>
-          </div>
+    <div class="collapse navbar-collapse" id="opciones">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html">Nosotros
+            <i class="bi bi-people-fill"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios
+            <i class="bi bi-buildings"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://pawpatrol.com/kids/games/3MV0PUUjASNhnSsmN09qaA">Video Juego
+            <i class="bi bi-controller"></i>
+          </a>
+        </li>
 
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/imagen4.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h2>Skye</h2>
-              <p class="card-text">Piloto experta, ágil, enérgica, valiente, optimista, leal, veloz, inteligente, alegre, decidida.</p>
-            </div>
-          </div>
 
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/imagen5.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h2>Marshall</h2>
-              <p class="card-text">Bombero energético, divertido, torpe, optimista, amigable, valiente, dedicado, rápido, risueño, confiable.</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/imagen6.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h2>Everest</h2>
-              <p class="card-text">Rescatista en nieve, enérgica, intrépida, fuerte, ágil, optimista, audaz, valiente, decidida, amistosa.</p>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/imagen7.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h2>Rocky</h2>
-              <p class="card-text">Reciclador creativo, ingenioso, ecológico, inteligente, astuto, práctico, responsable, estratégico, útil, amigable.</p>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/imagen8.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h2>Chase</h2>
-              <p class="card-text">Cachorro policía, líder, valiente, protector, rápido, responsable, inteligente, disciplinado, leal, estratégico.</p>
-            </div>
-          </div>
-
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Acción
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="https://youtu.be/92WXff7v_ZI?si=BvLbx8cEoIFdhTRv">1 Temporada </a></li>
+            <li><a class="dropdown-item" href="https://youtu.be/260zak8E4pI?si=2AOVY5Eg2Mjqt_eM">2 Temporada</a></li>
+            <li><a class="dropdown-item" href="https://youtu.be/8NEzTwa7heY?si=CKs8_TY4K4B3VwXp">3 Temporada</a></li>
+            <li><a class="dropdown-item" href="https://youtu.be/0f3cQs2VDXY?si=-iIoV7mJlQmp3TmL">4 Temporada</a></li>
+            <li><a class="dropdown-item" href="https://youtu.be/FhDYduvXheY?si=WwC5vBblPm1qJWe3">5 Temporada</a></li>
+            <li><a class="dropdown-item" href="https://youtu.be/PHrOfFdXwK8?si=T7xFRjRzmuJuYiVP">6 Temporada</a></li>
+            <li><a class="dropdown-item" href="https://youtu.be/5LFbn8u64ZI?si=JfjtyPSvX223-Ppy">7 Temporada</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="nav-item ms-auto">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                Iniciar sesión
+              </button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Inicio de sesión</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <footer class="text-center mt-5 p-3 bg-light">
-            <p><strong>Paw Patrol</strong></p>
-            <a href="https://www.facebook.com/PAWPatrol" target="_blank" class="me-2 btn btn-primary btn-sm">
-                <i class="bi bi-facebook"></i>
-            </a>
-            <a href="https://twitter.com/pawpatrol" target="_blank" class="me-2 btn btn-info btn-sm">
-                <i class="bi bi-twitter-x"></i>
-            </a>
-            <a href="https://www.instagram.com/pawpatrol/" target="_blank" class="btn btn-danger btn-sm">
-                <i class="bi bi-instagram"></i>
-            </a>
-            <div class="mt-3">
-                <a href="index.html" class="btn btn-primary">Volver al Inicio</a>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" required>
+              <div class="invalid-feedback" id="nameError"></div>
             </div>
-        </footer>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" required>
+              <div class="invalid-feedback" id="emailError"></div>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Teléfono</label>
+              <input type="text" class="form-control" id="telefono" pattern="^[0-9]{8,10}$"
+                title="El número de teléfono debe tener entre 8 y 10 dígitos" required>
+              <div class="invalid-feedback" id="phoneError"></div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+              <div class="invalid-feedback" id="messageError"></div>
+            </div>
+            <div class="mb-3 row">
+              <div class="offset-sm-3 col-sm-9">
+                <button type="submit" class="btn btn-primary btn-sm">Confirmar</button>
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancelar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+
+  <div class="container mt-5">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Datos de los Paw Patrol
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Raza</th>
+                  <th scope="col">Rol</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Chase</td>
+                  <td>Pastor Alemán</td>
+                  <td>Policía</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Marshall</td>
+                  <td>Dálmata</td>
+                  <td>Bombero y paramédico</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Zuma</td>
+                  <td>Labrador Retriever</td>
+                  <td>Rescate acuático</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Skye</td>
+                  <td>Cocker Spaniel</td>
+                  <td>Piloto</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Rubble</td>
+                  <td>Bulldog Inglés</td>
+                  <td>Contructor</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Rocky</td>
+                  <td>Mestizo</td>
+                  <td>Reciclaje y mecánico</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Everest</td>
+                  <td>Husky Siberiano</td>
+                  <td>Rescate en la nieve</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Servicios que Paw Patrol brindan en una ciudad
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Ciudad segura.</strong> Los Paw Patrol brindan servicios esenciales en la ciudad, asegurando
+            seguridad y bienestar. Chase actúa como policía, Marshall como bombero y paramédico, y Rubble en
+            construcción y reparaciones. Skye y Tracker cubren rescates aéreos y en zonas remotas, mientras que Rocky
+            fomenta el reciclaje y la conservación ambiental. Zuma lidera los rescates acuáticos y Everest los de zonas
+            nevadas. Con trabajo en equipo, mantienen la ciudad segura, funcional y protegida para todos.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Servicios de Ryder
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>El líder de Paw Patrol, Ryder.</strong> Brinda el servicio de coordinación y gestión de emergencias
+            en la ciudad. Él es quien recibe los llamados de auxilio, analiza la situación y asigna a los cachorros
+            adecuados para resolver cada problema. Además, opera tecnología avanzada para comunicarse con su equipo,
+            planificar rescates y garantizar que todas las misiones se completen de manera eficiente y segura. Sin él,
+            los Paw Patrol no podrían funcionar con la misma eficacia.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/imagen2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2>Rubble</h2>
+        <p class="card-text">Constructor fuerte, amigable, juguetón, divertido, valiente, trabajador, energético,
+          confiable, bromista, protector.</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/imagen3.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2>Zuma</h2>
+        <p class="card-text">Rescatista acuático, aventurero, relajado, valiente, tranquilo, juguetón, confiable, ágil,
+          amigable, optimista.</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/imagen4.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2>Skye</h2>
+        <p class="card-text">Piloto experta, ágil, enérgica, valiente, optimista, leal, veloz, inteligente, alegre,
+          decidida.</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/imagen5.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2>Marshall</h2>
+        <p class="card-text">Bombero energético, divertido, torpe, optimista, amigable, valiente, dedicado, rápido,
+          risueño, confiable.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/imagen6.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2>Everest</h2>
+        <p class="card-text">Rescatista en nieve, enérgica, intrépida, fuerte, ágil, optimista, audaz, valiente,
+          decidida, amistosa.</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/imagen7.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2>Rocky</h2>
+        <p class="card-text">Reciclador creativo, ingenioso, ecológico, inteligente, astuto, práctico, responsable,
+          estratégico, útil, amigable.</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/imagen8.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h2>Chase</h2>
+        <p class="card-text">Cachorro policía, líder, valiente, protector, rápido, responsable, inteligente,
+          disciplinado, leal, estratégico.</p>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+  <footer class="text-center mt-5 p-3 bg-light">
+    <p><strong>Paw Patrol</strong></p>
+    <a href="https://www.facebook.com/PAWPatrol" target="_blank" class="me-2 btn btn-primary btn-sm">
+      <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://twitter.com/pawpatrol" target="_blank" class="me-2 btn btn-info btn-sm">
+      <i class="bi bi-twitter-x"></i>
+    </a>
+    <a href="https://www.instagram.com/pawpatrol/" target="_blank" class="btn btn-danger btn-sm">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <div class="mt-3">
+      <a href="index.html" class="btn btn-primary">Volver al Inicio</a>
+    </div>
+  </footer>
 </body>
+
 </html>
